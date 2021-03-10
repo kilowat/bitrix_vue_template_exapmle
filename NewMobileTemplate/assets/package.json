@@ -6,7 +6,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "build-watch": "vue-cli-service build-watch"
+     "watch" : "vue-cli-service build --watch"
   },
   "dependencies": {
     "core-js": "^3.6.5",
@@ -24,7 +24,6 @@
     "eslint-plugin-vue": "^6.2.2",
     "sass": "^1.32.0",
     "sass-loader": "^10.0.0",
-    "vue-cli-plugin-build-watch": "~1.0.0",
     "vue-cli-plugin-vuetify": "~2.2.2",
     "vue-template-compiler": "^2.6.11",
     "vuetify-loader": "^1.7.0"
